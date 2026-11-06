@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimenta — Esporte para todos</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Este link ajuda quem usa o teclado. -->
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+     /* para funcionar os botões 
+   <div class="acessibilidade" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px;">
+   <!-- O justify-content: space-between joga o título para a esquerda e os botões para a extrema direita -->
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #e8e8e6; width: 100%; box-sizing: border-box;">
+    
+    /*usei para colocar o Título na esquerda
+
+    <h1 style="font-size: 34px; margin: 0; font-family: sans-serif; color: #000000; font-weight: bold;">Movimenta</h1>
+
+    <!-- usei para direcionar onde quero os botões a cima-->
+    <div style="display: flex; gap: 10px;">
+        <button style="font-size: 15px; padding: 5px 10px; cursor: pointer;" onclick="document.body.classList.toggle('fonte-grande')">Aumentar texto</button>
+        <button style="font-size: 15px; padding: 5px 10px; cursor: pointer;" onclick="document.body.classList.toggle('alto-contraste')">Alto contraste</button>
+    </div>
+
+  
+</style>
+
+</div>
+
+<style>
+.fonte-grande { font-size: 1.5rem !important; }
+
+/* mudar o filtro de cores  */
+.alto-contraste, .alto-contraste * { 
+  filter: none !important;
+  background-color: #000000 !important; 
+  color: #ffee00 !important; 
+}
+</style>
+
+
+</div>
+
+
+
+    </div>
+
+    <header>
+    
+      <nav aria-label="Menu principal">
+        <a href="#esportes">Esportes</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+    </header>
+
+    <main id="conteudo" tabindex="-1">
+      <!-- Apresentação do site. -->
+      <section class="inicio">
+        <div>
+          <p class="etiqueta">ESPORTE SEM BARREIRAS</p>
+          <h1>O esporte é para <span>você também.</span></h1>
+          <p>Todo corpo tem seu movimento. Conheça esportes adaptados e dê o primeiro passo no seu ritmo.</p>
+          <a class="botao" href="#esportes">Conhecer os esportes</a>
+        </div>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1657145537587-bc61af46050c?auto=format&fit=crop&w=1000&q=80" alt="Jovem jogando basquete em cadeira de rodas.">
+          <figcaption>Foto: Moses Malik Roldan / Unsplash</figcaption>
+        </figure>
+      </section>
+
+      /Usei para selecionar onde queria os esportes 
+      <section id="esportes">
+        <p class="etiqueta">DESCUBRA SEU MOVIMENTO</p>
+        <h2>Um esporte. Muitas possibilidades.</h2>
+        <p>Encontre uma modalidade que combine com você.</p>
+
+        <div class="esportes">
+          <article>
+            <p class="etiqueta">01 — EM EQUIPE</p>
+            <h3>Basquete em cadeira de rodas</h3>
+            <p>Uma modalidade com muita energia, estratégia e trabalho em equipe.</p>
+            <details>
+              <summary>Saiba mais</summary>
+              <p>Os atletas usam cadeiras esportivas. Procure um clube ou projeto com orientação profissional para começar.</p>
+            </details>
+          </article>
+
+          <article>
+            <p class="etiqueta">02 — INDIVIDUAL</p>
+            <h3>Natação adaptada</h3>
+            <p>Explore o movimento na água e descubra novas possibilidades no seu ritmo.</p>
+            <details>
+              <summary>Saiba mais</summary>
+              <p>Os treinos podem ser adaptados para cada pessoa. Procure uma piscina acessível e um profissional qualificado.</p>
+            </details>
+          </article>
+
+          <article>
+            <p class="etiqueta">03 — EM EQUIPE</p>
+            <h3>Goalball</h3>
+            <p>O som da bola guia este esporte criado para pessoas com deficiência visual.</p>
+            <details>
+              <summary>Saiba mais</summary>
+              <p>A bola tem guizos. Duas equipes de três jogadores usam vendas e tentam marcar gols, acompanhando o som da bola.</p>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <div class="esportes">
+          <article>
+            <p class="etiqueta">04 — EM EQUIPE</p>
+            <h3>futsal para surdos</h3>
+            <p>são feitas mudanças para que os jogadores consigam jogar sem dificuldade.</p>
+            <details>
+              <summary>Saiba mais</summary>
+              <p>Em vez de usar apitos sonoros, o árbitro utiliza uma bandeira para sinalizar faltas, gols, escanteios e paralisações.</p>
+            </details>
+          </article>
+
+     
+    </main>
+ 
+    <footer>Movimenta — Esporte para todos.</footer>
+  </body>
+</html>
